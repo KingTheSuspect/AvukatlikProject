@@ -1,14 +1,11 @@
-﻿{
-  "version": "1.0",
-  "components": [
-    "Microsoft.VisualStudio.Workload.ManagedGame"
-  ]
- 
-"files.exclude":
+{
+    "files.exclude":
     {
         "**/.DS_Store":true,
         "**/.git":true,
+        "**/.vs":true,
         "**/.gitmodules":true,
+        "**/.vsconfig":true,
         "**/*.booproj":true,
         "**/*.pidb":true,
         "**/*.suo":true,
@@ -53,8 +50,12 @@
         "library/":true,
         "obj/":true,
         "Obj/":true,
+        "Logs/":true,
+        "logs/":true,
         "ProjectSettings/":true,
+        "UserSettings/":true,
         "temp/":true,
         "Temp/":true
-    }
+    },
+    "omnisharp.enableRoslynAnalyzers": true
 }
