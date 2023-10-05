@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ced4e60b0562fa4489773ed44297b11f, type: 3}
-  m_Name: TestPersonel
+  m_Script: {fileID: 11500000, guid: 51914257969a680408f8f6671501943a, type: 3}
+  m_Name: PersonelDataBase
   m_EditorClassIdentifier: 
-  <PersonelName>k__BackingField: Akin Yildirim
-  <PersonelAge>k__BackingField: 23
-  <PersonelSprite>k__BackingField: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  personels:
+  - {fileID: 11400000, guid: a40c7043ef2c12b4099c48a6daac9ac9, type: 2}
+  - {fileID: 11400000, guid: d9fca09429b2ec44ba77208cd18c0a3e, type: 2}
