@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced4e60b0562fa4489773ed44297b11f, type: 3}
   m_Name: TestPersonel
   m_EditorClassIdentifier: 
-  <PersonelName>k__BackingField: Akin Yildirim
+  <PersonelName>k__BackingField: Test Name0
   <PersonelAge>k__BackingField: 23
   <PersonelSprite>k__BackingField: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   <ID>k__BackingField: 0

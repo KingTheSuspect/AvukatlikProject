@@ -24,4 +24,10 @@ public class SceneManagement : MonoBehaviour
         AsyncOperation op = SceneManager.LoadSceneAsync(sceneIndex);
         OnLoadSceneAsync?.Invoke(op);
     }
+
+    public void LoadSceneAsync(string sceneName)
+    {
+        AsyncOperation op = SceneManager.LoadSceneAsync(sceneName);
+        OnLoadSceneAsync?.Invoke(op);
+    }
 }

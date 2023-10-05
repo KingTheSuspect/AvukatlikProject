@@ -236,6 +236,7 @@ MonoBehaviour:
   - {fileID: 8244984479299886691}
   - {fileID: 5076283187916581520}
   testPersonelSo: {fileID: 11400000, guid: a40c7043ef2c12b4099c48a6daac9ac9, type: 2}
+  personelSystem: {fileID: 11400000, guid: 611fd2515ad937147be5c5ff4c9123af, type: 2}
 --- !u!1001 &277427763943335734
 PrefabInstance:
   m_ObjectHideFlags: 0

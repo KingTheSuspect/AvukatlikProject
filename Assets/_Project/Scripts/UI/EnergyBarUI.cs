@@ -11,8 +11,7 @@ public class EnergyBarUI : MonoBehaviour
 
     void Start()
     {
-        //test
-        currentEnergy = energyConfig.MaxEnergyAmount;
+        currentEnergy = energyConfig.MaxEnergyAmount; //test
         Init(); 
     }
 
@@ -22,7 +21,7 @@ public class EnergyBarUI : MonoBehaviour
         energyAmountText.text = $"{currentEnergy}/{energyConfig.MaxEnergyAmount}";
         fillImage.fillAmount = (float)currentEnergy / energyConfig.MaxEnergyAmount;
 
-        fillImage.color = Color.Lerp(energyConfig.EmptyBarColor, energyConfig.FullBarColor, (float)currentEnergy / energyConfig.MaxEnergyAmount);
+        fillImage.color = energyConfig.GetColor(currentEnergy);
     } 
 
     void OnValidate()
