@@ -410,6 +410,7 @@ MonoBehaviour:
   muteMusicButton: {fileID: 6812061775464668817}
   muteSfxButton: {fileID: 6771375695111348331}
   closeButton: {fileID: 1387222227128395931}
+  scaleDuration: 0.5
 --- !u!1 &3985073378690562956
 GameObject:
   m_ObjectHideFlags: 0
