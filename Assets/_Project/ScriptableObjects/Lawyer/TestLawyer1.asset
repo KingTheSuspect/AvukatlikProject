@@ -9,10 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ced4e60b0562fa4489773ed44297b11f, type: 3}
-  m_Name: TestPersonel 1
+  m_Script: {fileID: 11500000, guid: bca12d5c35ccb7343a79ea1b4788963e, type: 3}
+  m_Name: TestLawyer1
   m_EditorClassIdentifier: 
-  <PersonelName>k__BackingField: Test Name1
-  <PersonelAge>k__BackingField: 30
-  <PersonelSprite>k__BackingField: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  <PersonelName>k__BackingField: TestLawyer1
+  <PersonelAge>k__BackingField: 21
+  <PersonelSprite>k__BackingField: {fileID: 0}
   <ID>k__BackingField: 1
+  <SkillPoint>k__BackingField: 5

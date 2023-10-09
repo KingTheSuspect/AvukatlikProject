@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51914257969a680408f8f6671501943a, type: 3}
-  m_Name: PersonelDataBase
+  m_Name: LawyerDataBase
   m_EditorClassIdentifier: 
   personels:
-  - {fileID: 11400000, guid: a40c7043ef2c12b4099c48a6daac9ac9, type: 2}
-  - {fileID: 11400000, guid: d9fca09429b2ec44ba77208cd18c0a3e, type: 2}
+  - {fileID: 11400000, guid: 0a024f860672cb74cb4a7d3431cc9ded, type: 2}
+  - {fileID: 11400000, guid: b8fb738c5fd1adf4993c933fdc01866c, type: 2}

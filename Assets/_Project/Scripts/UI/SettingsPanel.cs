@@ -1,13 +1,15 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
+using UnityEngine.Events;
 
 public class SettingsPanel : MonoBehaviour
 {
     [SerializeField] private Button muteMusicButton;
     [SerializeField] private Button muteSfxButton;
-
     [SerializeField] private Button closeButton;
+
+    [SerializeField] private float scaleDuration = 0.75f;
 
     private void Awake()
     {
@@ -18,7 +20,13 @@ public class SettingsPanel : MonoBehaviour
 
     private void HandleCloseButton()
     {
-        gameObject.SetActive(false);
+        void CompleteAction()
+        {
+            gameObject.SetActive(false);
+        }
+
+        transform.localScale = Vector3.one;
+        PlayScaleAnimation(Vector3.zero, Ease.InBack, CompleteAction);
     }
 
     private void HandleMuteSfxButton()
@@ -34,5 +42,12 @@ public class SettingsPanel : MonoBehaviour
     public void Init()
     {
         gameObject.SetActive(true);
+        transform.localScale = Vector3.zero;
+        PlayScaleAnimation(Vector3.one, Ease.OutBack, null);
+    }
+
+    private void PlayScaleAnimation(Vector3 target, Ease easeType, UnityAction completeAction)
+    {
+        transform.DOScale(target, scaleDuration).SetEase(easeType).OnComplete(()=> completeAction?.Invoke());
     }
 }
