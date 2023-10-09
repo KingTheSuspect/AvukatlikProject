@@ -3,6 +3,7 @@ using UnityEngine;
 public class Managers : MonoBehaviour
 {
     public AudioManager AudioManager {get; private set;}
+    public EnergyManager EnergyManager {get; private set;}
     public static Managers Instance {get; private set;}
 
     private void Awake()
@@ -21,5 +22,6 @@ public class Managers : MonoBehaviour
     private void CacheManagers()
     {
         AudioManager = GetComponent<AudioManager>();
+        EnergyManager = GetComponent<EnergyManager>();
     }
 }

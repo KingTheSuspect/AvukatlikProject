@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: EnergyConfig
   m_EditorClassIdentifier: 
   fullBarColor: {r: 0, g: 1, b: 0, a: 1}
+  halfBarColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   emptyBarColor: {r: 1, g: 0, b: 0, a: 1}
   maxEnergyAmount: 30
   energyLoseEachCase: 5
+  energyRecoverTime: 3

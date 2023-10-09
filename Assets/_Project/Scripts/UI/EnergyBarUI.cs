@@ -7,25 +7,23 @@ public class EnergyBarUI : MonoBehaviour
     [SerializeField] private EnergyConfig energyConfig;
     [SerializeField] private TMP_Text energyAmountText;
     [SerializeField] private Image fillImage;
-    [SerializeField] private int currentEnergy;
 
-    void Start()
+    private void Start()
     {
-        currentEnergy = energyConfig.MaxEnergyAmount; //test
-        Init(); 
+        DataManager.OnEnergyUpdate += UpdateUI;
+        UpdateUI(); 
     }
 
-    [ContextMenu("Init")]
-    private void Init()
+    private void UpdateUI()
     {
-        energyAmountText.text = $"{currentEnergy}/{energyConfig.MaxEnergyAmount}";
-        fillImage.fillAmount = (float)currentEnergy / energyConfig.MaxEnergyAmount;
+        energyAmountText.text = $"{DataManager.Energy}/{energyConfig.MaxEnergyAmount}";
+        fillImage.fillAmount = (float)DataManager.Energy / energyConfig.MaxEnergyAmount;
 
-        fillImage.color = energyConfig.GetColor(currentEnergy);
+        fillImage.color = energyConfig.GetColor(DataManager.Energy);
     } 
 
-    void OnValidate()
+    private void OnDestroy()
     {
-        Init();
+        DataManager.OnEnergyUpdate -= UpdateUI;
     }
 }
