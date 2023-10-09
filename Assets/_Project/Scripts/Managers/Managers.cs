@@ -4,6 +4,7 @@ public class Managers : MonoBehaviour
 {
     public AudioManager AudioManager {get; private set;}
     public EnergyManager EnergyManager {get; private set;}
+    public BankManager BankManager {get; private set;}
     public static Managers Instance {get; private set;}
 
     private void Awake()
@@ -23,5 +24,6 @@ public class Managers : MonoBehaviour
     {
         AudioManager = GetComponent<AudioManager>();
         EnergyManager = GetComponent<EnergyManager>();
+        BankManager = GetComponent<BankManager>();
     }
 }

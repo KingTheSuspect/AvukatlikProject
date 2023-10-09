@@ -1,6 +1,7 @@
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CurrencyUI : MonoBehaviour
 {
@@ -27,6 +28,9 @@ public class CurrencyUI : MonoBehaviour
 #if UNITY_EDITOR
     private void Update()
     {
+        if(EventSystem.current.IsPointerOverGameObject())
+            return;
+        
         if(Input.GetMouseButtonDown(0))
         {
             DataManager.Currency += testValue;

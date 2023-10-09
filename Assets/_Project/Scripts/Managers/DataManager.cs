@@ -47,4 +47,5 @@ public struct PlayerPrefsKeys
     public static string PrestigeKey = "Prestige";
     public static string EnergyKey = "Energy";
     public static string EnergySpendTimeKey = "EnergySpendTime";
+    public static string HasEverCloseToBankruptKey = "HasEverCloseToBankrupt";
 }
