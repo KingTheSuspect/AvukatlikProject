@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f940d7dcbf8974a8b3d458a7eb87f6, type: 3}
   m_Name: TestBuilding0
   m_EditorClassIdentifier: 
-  <Price>k__BackingField: 1000
+  <BuyPrice>k__BackingField: 100
+  <UpgradePrice>k__BackingField: 0
+  <Rent>k__BackingField: 0

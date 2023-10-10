@@ -1587,6 +1587,11 @@ MonoBehaviour:
   buildingLayer:
     serializedVersion: 2
     m_Bits: 64
+  buildings:
+  - {fileID: 786804030}
+  - {fileID: 410001881}
+  - {fileID: 1751833541}
+  - {fileID: 1927798380}
 --- !u!1001 &1935069487738860932
 PrefabInstance:
   m_ObjectHideFlags: 0

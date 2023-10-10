@@ -9,7 +9,7 @@ public class BuildingInfoUI : MonoBehaviour
 
     public void Init(BuildingSO buildingSO)
     {
-        priceText.text = buildingSO.Price.ToString();
+        priceText.text = buildingSO.BuyPrice.ToString();
 
         gameObject.SetActive(true);
         transform.localScale = Vector3.zero;
