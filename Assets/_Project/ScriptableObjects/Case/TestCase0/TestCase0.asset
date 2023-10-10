@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4888ff9629b854895860f7ede020e0, type: 3}
+  m_Name: TestCase0
+  m_EditorClassIdentifier: 
+  <ID>k__BackingField: 0
+  <ComplainantName>k__BackingField: TestComplainantName
+  <CaseSubject>k__BackingField: TestCaseSubject
+  <CaseDescription>k__BackingField: "\xD6zel bir in\u015Faat firmas\u0131nda m\xFChendis
+    olarak \xE7al\u0131\u015Fan Max, son zamanlarda\r\ni\u015Fveren taraf\u0131ndan
+    s\xFCrekli olarak ayr\u0131mc\u0131l\u0131\u011Fa ve i\u015Fyerindeki zorla \xE7al\u0131\u015Ft\u0131rma\r\nuygulamalar\u0131na
+    maruz kalmakta. Max, bu ko\u015Fullar alt\u0131nda \xE7al\u0131\u015Fman\u0131n
+    b\xFCy\xFCk bir\r sayg\u0131s\u0131zl\u0131k oldu\u011Funu d\xFC\u015F\xFCnmekte
+    ve i\u015F s\xF6zle\u015Fmesinin ihlal edildi\u011Fine\r inanmaktad\u0131r. \xC7al\u0131\u015Fanlarda
+    Max ile ayn\u0131 fikirde olunca Max bir \xE7\xF6z\xFCm yolu aram\u0131\u015Ft\u0131r.\r\n\r\nMax,
+    i\u015Fyerindeki ayr\u0131mc\u0131l\u0131k ve zorla \xE7al\u0131\u015Ft\u0131rma
+    durumlar\u0131n\u0131 dile getirmi\u015F,\r\nancak i\u015Fveren bu \u015Fikayetlere
+    yan\u0131t vermemi\u015F aksine bu durum i\u015Fleri daha \r\nk\xF6t\xFC hale
+    getirmi\u015Ftir. Max, i\u015Fverenin insan haklar\u0131na ve i\u015F hukukuna
+    ayk\u0131r\u0131 \r\ndavran\u0131\u015Flar\u0131na kar\u015F\u0131 hukuki bir
+    m\xFCcadele ba\u015Flatmak ve i\u015Fyerindeki ko\u015Fullar\u0131\r d\xFCzeltmek
+    amac\u0131yla bir avukata ihtiya\xE7 duymaktad\u0131r."
+  <CaseDescriptionByComplainant>k__BackingField: TestCaseDescriptionByComplainant
+  <CaseSummaryByLawyer>k__BackingField: "Elbette Say\u0131n Hakim. M\xFCvekkilim,
+    \xF6zel bir in\u015Faat firmas\u0131nda m\xFChendis olarak \xE7al\u0131\u015Fmaktad\u0131r.
+    Ancak son zamanlarda i\u015Fveren taraf\u0131ndan s\xFCrekli olarak ayr\u0131mc\u0131l\u0131\u011Fa
+    ve i\u015Fyerindeki zorla \xE7al\u0131\u015Ft\u0131rmaya maruz kalmaktad\u0131r.
+    M\xFCvekkil, bu ko\u015Fullar alt\u0131nda \xE7al\u0131\u015Fman\u0131n insan
+    haklar\u0131n\u0131 ihlal etti\u011Fine ve i\u015F s\xF6zle\u015Fmesinin ihlal
+    edildi\u011Fine inanmaktad\u0131r."
+  <CaseType>k__BackingField: 0
+  <Prestige>k__BackingField: 10
+  <CaseIncome>k__BackingField: 100
+  questions:
+  - {fileID: 11400000, guid: b1a7b8cef8aa0824ebf158c15e46dbea, type: 2}
+  - {fileID: 11400000, guid: 050a4ff9709da3f49a026482b2b214e6, type: 2}
+  - {fileID: 11400000, guid: 42394b36740e11649a9d2943e65e420a, type: 2}
+  - {fileID: 11400000, guid: 0dfb0dbe160cf23429157090aaf67e74, type: 2}

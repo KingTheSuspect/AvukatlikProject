@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 580f63018b8dae74fa528ca48d39dfe4, type: 3}
+  m_Name: TestCase0Question1
+  m_EditorClassIdentifier: 
+  <Question>k__BackingField: "\u0130\u015Fvereninizin bu ayr\u0131mc\u0131l\u0131k
+    ve zorla \xE7al\u0131\u015Ft\u0131rma iddialar\u0131na kar\u015F\u0131 herhangi
+    bir savunmas\u0131 veya yan\u0131t\u0131 var m\u0131?\r"
+  answers:
+  - {fileID: 11400000, guid: e5db95dc96c86454c99532e542afd2e2, type: 2}
+  - {fileID: 11400000, guid: 9df43751e1b1e724ba1d73aa65b99200, type: 2}
+  - {fileID: 11400000, guid: 2ff02f8f6b35db642a1e5adefadae202, type: 2}
+  trueAnswer: {fileID: 11400000, guid: 9df43751e1b1e724ba1d73aa65b99200, type: 2}
