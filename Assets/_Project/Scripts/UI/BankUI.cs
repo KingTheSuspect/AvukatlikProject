@@ -37,7 +37,11 @@ public class BankUI : MonoBehaviour
 
     private void HandleCloseButton()
     {
-        PlayScaleAnimation(Vector3.zero, Ease.InBack, ()=> bankPanel.gameObject.SetActive(false));
+        PlayScaleAnimation(Vector3.zero, Ease.InBack, ()=>
+        {
+            bankPanel.gameObject.SetActive(false);
+            bankButton.gameObject.SetActive(true);
+        });
     }
 
     private void HandleGetButton()
@@ -45,13 +49,18 @@ public class BankUI : MonoBehaviour
         int amount = int.Parse(currencyAmountText.text);
         DataManager.Currency += amount;
 
-        PlayScaleAnimation(Vector3.zero, Ease.InBack, ()=> bankPanel.gameObject.SetActive(false));
+        PlayScaleAnimation(Vector3.zero, Ease.InBack, ()=>
+        {
+            bankPanel.gameObject.SetActive(false);
+            bankButton.gameObject.SetActive(true);
+        });
     }
 
     private void HandleBankButton()
     {
         InitCurrencyText();
         InitBankPanel();
+        bankButton.gameObject.SetActive(false);
     }
 
     private void InitCurrencyText()
