@@ -19,4 +19,19 @@ public class PersonelDataBase : ScriptableObject
 
         return false;
     }
+
+    public List<PersonelSO> GetPersonelByIDs(List<int> ids)
+    {
+        List<PersonelSO> personels = new();
+
+        foreach (var id in ids)
+        {
+            if(TryGetPersonel(id, out PersonelSO personelSO))
+            {
+                personels.Add(personelSO);
+            }
+        }
+
+        return personels;
+    }
 }

@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18f940d7dcbf8974a8b3d458a7eb87f6, type: 3}
   m_Name: TestBuilding0
   m_EditorClassIdentifier: 
+  <PersonelDataBase>k__BackingField: {fileID: 11400000, guid: 7c597c81368f8714fb646ee1e1bff6d0, type: 2}
   <BuyPrice>k__BackingField: 100
-  <UpgradePrice>k__BackingField: 0
-  <Rent>k__BackingField: 0
+  <MaxLevel>k__BackingField: 5
+  PrestigeByLevels: 0a000000140000001e0000002800000032000000
+  MaxPersonelCountByLevels: 0300000004000000050000000500000005000000
+  RentByLevels: e8030000b80b00008813000010270000983a0000
+  UpgradePriceByLevels: c4090000c409000088130000983a000030750000

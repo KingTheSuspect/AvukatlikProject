@@ -21,7 +21,7 @@ public class BuildingUI : MonoBehaviour
             buildingInfoUI.gameObject.SetActive(false);
         }
 
-        buildingInfoUI.Init(building.BuildingSO);
+        buildingInfoUI.Init(building);
         buildingInfoUI.transform.position = screenPosition;
     }
 

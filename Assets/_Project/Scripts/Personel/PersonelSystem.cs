@@ -48,10 +48,6 @@ public class PersonelSystem : ScriptableObject
 
         var data = dataService.LoadData<List<int>>(savePath, true);
 
-        foreach (int personelID in data)
-        {
-            if(personelDataBase.TryGetPersonel(personelID, out PersonelSO personel))
-                personelList.Add(personel);
-        }
+        personelList = new(personelDataBase.GetPersonelByIDs(data));
     }
 }
