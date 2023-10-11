@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 290d2eb44337e6a4480a1415f510053e, type: 3}
   m_Name: TestCase0Question3Answer2
   m_EditorClassIdentifier: 
-  <Answer>k__BackingField: "\u0130\u015Fveren bu t\xFCr bir \xE7\xF6z\xFCme yana\u015Fmad\u0131\u011F\u0131
-    i\xE7in arabuluculuk denemedik."
+  <Answer>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:49ca2836e16d4a64d812dff23512d9bf
+    m_TableEntryReference:
+      m_KeyId: 12009536974848
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

@@ -12,10 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580f63018b8dae74fa528ca48d39dfe4, type: 3}
   m_Name: TestCase0Question0
   m_EditorClassIdentifier: 
-  <Question>k__BackingField: "\u0130\u015Fvereninizle bu konuda daha \xF6nce ileti\u015Fime
-    ge\xE7tiniz mi?"
+  <Question>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:49ca2836e16d4a64d812dff23512d9bf
+    m_TableEntryReference:
+      m_KeyId: 10920775348224
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   answers:
   - {fileID: 11400000, guid: 6597b6e186f123d418395812605ee9f9, type: 2}
   - {fileID: 11400000, guid: 6890827166ea79947817120e68f5eeff, type: 2}
   - {fileID: 11400000, guid: 12a3180bd6468d2489c6d2df11ca7180, type: 2}
   trueAnswer: {fileID: 11400000, guid: 6597b6e186f123d418395812605ee9f9, type: 2}
+  references:
+    version: 2
+    RefIds: []

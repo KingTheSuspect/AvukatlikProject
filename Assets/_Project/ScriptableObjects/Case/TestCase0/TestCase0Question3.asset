@@ -12,10 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580f63018b8dae74fa528ca48d39dfe4, type: 3}
   m_Name: TestCase0Question3
   m_EditorClassIdentifier: 
-  <Question>k__BackingField: "Bu davay\u0131 \xE7\xF6zmek i\xE7in arabuluculuk veya
-    ba\u015Fka bir alternatif yol d\xFC\u015F\xFCnd\xFCn\xFCz m\xFC?"
+  <Question>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:49ca2836e16d4a64d812dff23512d9bf
+    m_TableEntryReference:
+      m_KeyId: 11326041583616
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   answers:
   - {fileID: 11400000, guid: 7cca97d4aba148040b209417f92527cf, type: 2}
   - {fileID: 11400000, guid: 641fc46bdd7cbb84dba8982be9d5442d, type: 2}
   - {fileID: 11400000, guid: 183a0b173cc44a94797122f1fdc9bf6c, type: 2}
   trueAnswer: {fileID: 11400000, guid: 641fc46bdd7cbb84dba8982be9d5442d, type: 2}
+  references:
+    version: 2
+    RefIds: []

@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 290d2eb44337e6a4480a1415f510053e, type: 3}
   m_Name: TestCase0Question0Answer2
   m_EditorClassIdentifier: 
-  <Answer>k__BackingField: "\u0130\u015Fverenle ileti\u015Fime ge\xE7tik, ancak sorunlar
-    \xE7\xF6z\xFClmedi.\r\n"
+  <Answer>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:49ca2836e16d4a64d812dff23512d9bf
+    m_TableEntryReference:
+      m_KeyId: 11530832670720
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

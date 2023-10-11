@@ -12,11 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580f63018b8dae74fa528ca48d39dfe4, type: 3}
   m_Name: TestCase0Question1
   m_EditorClassIdentifier: 
-  <Question>k__BackingField: "\u0130\u015Fvereninizin bu ayr\u0131mc\u0131l\u0131k
-    ve zorla \xE7al\u0131\u015Ft\u0131rma iddialar\u0131na kar\u015F\u0131 herhangi
-    bir savunmas\u0131 veya yan\u0131t\u0131 var m\u0131?\r"
+  <Question>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:49ca2836e16d4a64d812dff23512d9bf
+    m_TableEntryReference:
+      m_KeyId: 11280055234560
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   answers:
   - {fileID: 11400000, guid: e5db95dc96c86454c99532e542afd2e2, type: 2}
   - {fileID: 11400000, guid: 9df43751e1b1e724ba1d73aa65b99200, type: 2}
   - {fileID: 11400000, guid: 2ff02f8f6b35db642a1e5adefadae202, type: 2}
   trueAnswer: {fileID: 11400000, guid: 9df43751e1b1e724ba1d73aa65b99200, type: 2}
+  references:
+    version: 2
+    RefIds: []

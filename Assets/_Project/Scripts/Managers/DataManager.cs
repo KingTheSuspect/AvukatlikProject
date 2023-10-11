@@ -39,6 +39,12 @@ public class DataManager
         }
     }
     public static event UnityAction OnPrestigeUpdate;
+
+    public static int LocalizationID
+    {
+        get => PlayerPrefs.GetInt(PlayerPrefsKeys.LocalizationKey, 0);
+        set => PlayerPrefs.SetInt(PlayerPrefsKeys.LocalizationKey, value);
+    }
 }
 
 public struct PlayerPrefsKeys
@@ -46,6 +52,7 @@ public struct PlayerPrefsKeys
     public static string CurrencyKey = "Currency";
     public static string PrestigeKey = "Prestige";
     public static string EnergyKey = "Energy";
+    public static string LocalizationKey = "Localization";
     public static string EnergySpendTimeKey = "EnergySpendTime";
     public static string HasEverCloseToBankruptKey = "HasEverCloseToBankrupt";
 }

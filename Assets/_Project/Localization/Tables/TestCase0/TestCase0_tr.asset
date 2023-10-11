@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TestCase0_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 49ca2836e16d4a64d812dff23512d9bf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 19967995904
+    m_Localized: Test Dava Konusu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 879104061440
+    m_Localized: "\xD6zel bir in\u015Faat firmas\u0131nda m\xFChendis olarak \xE7al\u0131\u015Fan
+      Max, son zamanlarda\r\ni\u015Fveren taraf\u0131ndan s\xFCrekli olarak ayr\u0131mc\u0131l\u0131\u011Fa
+      ve i\u015Fyerindeki zorla \xE7al\u0131\u015Ft\u0131rma\r\nuygulamalar\u0131na
+      maruz kalmakta. Max, bu ko\u015Fullar alt\u0131nda \xE7al\u0131\u015Fman\u0131n
+      b\xFCy\xFCk bir\r sayg\u0131s\u0131zl\u0131k oldu\u011Funu d\xFC\u015F\xFCnmekte
+      ve i\u015F s\xF6zle\u015Fmesinin ihlal edildi\u011Fine\r inanmaktad\u0131r.
+      \xC7al\u0131\u015Fanlarda Max ile ayn\u0131 fikirde olunca Max bir \xE7\xF6z\xFCm
+      yolu aram\u0131\u015Ft\u0131r.\r\n\r\nMax, i\u015Fyerindeki ayr\u0131mc\u0131l\u0131k
+      ve zorla \xE7al\u0131\u015Ft\u0131rma durumlar\u0131n\u0131 dile getirmi\u015F,\r\nancak
+      i\u015Fveren bu \u015Fikayetlere yan\u0131t vermemi\u015F aksine bu durum i\u015Fleri
+      daha \r\nk\xF6t\xFC hale getirmi\u015Ftir. Max, i\u015Fverenin insan haklar\u0131na
+      ve i\u015F hukukuna ayk\u0131r\u0131 \r\ndavran\u0131\u015Flar\u0131na kar\u015F\u0131
+      hukuki bir m\xFCcadele ba\u015Flatmak ve i\u015Fyerindeki ko\u015Fullar\u0131\r
+      d\xFCzeltmek amac\u0131yla bir avukata ihtiya\xE7 duymaktad\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214031818752
+    m_Localized: tr TestCaseDescriptionByComplainant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1216254799872
+    m_Localized: "Elbette Say\u0131n Hakim. M\xFCvekkilim, \xF6zel bir in\u015Faat
+      firmas\u0131nda m\xFChendis olarak \xE7al\u0131\u015Fmaktad\u0131r. Ancak son
+      zamanlarda i\u015Fveren taraf\u0131ndan s\xFCrekli olarak ayr\u0131mc\u0131l\u0131\u011Fa
+      ve i\u015Fyerindeki zorla \xE7al\u0131\u015Ft\u0131rmaya maruz kalmaktad\u0131r.
+      M\xFCvekkil, bu ko\u015Fullar alt\u0131nda \xE7al\u0131\u015Fman\u0131n insan
+      haklar\u0131n\u0131 ihlal etti\u011Fine ve i\u015F s\xF6zle\u015Fmesinin ihlal
+      edildi\u011Fine inanmaktad\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10920775348224
+    m_Localized: "\u0130\u015Fvereninizle bu konuda daha \xF6nce ileti\u015Fime ge\xE7tiniz
+      mi?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11280055234560
+    m_Localized: "\u0130\u015Fvereninizin bu ayr\u0131mc\u0131l\u0131k ve zorla \xE7al\u0131\u015Ft\u0131rma
+      iddialar\u0131na kar\u015F\u0131 herhangi bir savunmas\u0131 veya yan\u0131t\u0131
+      var m\u0131?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11301731397632
+    m_Localized: "M\xFCvekkilinizin i\u015F s\xF6zle\u015Fmesindeki ihlalleri belgelendirebilece\u011Finiz
+      veya tan\u0131klar\u0131n\u0131z var m\u0131?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11326041583616
+    m_Localized: "Bu davay\u0131 \xE7\xF6zmek i\xE7in arabuluculuk veya ba\u015Fka
+      bir alternatif yol d\xFC\u015F\xFCnd\xFCn\xFCz m\xFC?\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11499958398976
+    m_Localized: "Evet, i\u015Fverenle ileti\u015Fime ge\xE7tik ve sorunlar\u0131
+      dile getirdik \xE7\xF6z\xFCm yollar\u0131 aramam\u0131za ra\u011Fmen ortak
+      bir noktada bulu\u015Famad\u0131k.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11528794238976
+    m_Localized: "Hay\u0131r, i\u015Fverenle ileti\u015Fime ge\xE7medik, \xE7\xFCnk\xFC
+      i\u015Fveren bu konuda a\xE7\u0131k de\u011Fil."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11530832670720
+    m_Localized: "\u0130\u015Fverenle ileti\u015Fime ge\xE7tik, ancak sorunlar \xE7\xF6z\xFClmedi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11677452955648
+    m_Localized: "Evet, i\u015Fveren iddialar\u0131m\u0131za kar\u015F\u0131 bir
+      savunma sundu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11682985242624
+    m_Localized: "Hay\u0131r, i\u015Fveren herhangi bir savunma sunmad\u0131."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11684054790144
+    m_Localized: "\u0130\u015Fveren yan\u0131t vermedi, bu nedenle bir savunma yok."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11793312215040
+    m_Localized: "Evet, i\u015F s\xF6zle\u015Fmesi ihlallerini belgelendirebiliriz
+      ve tan\u0131klar\u0131m\u0131z var."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11794943799296
+    m_Localized: "Hay\u0131r, i\u015F s\xF6zle\u015Fmesi ihlallerini belgelendiremeyiz
+      ve tan\u0131k da bulunmuyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11795757494272
+    m_Localized: "\u0130\u015F s\xF6zle\u015Fmesi ihlallerini belgelendirebiliriz,
+      ancak tan\u0131k yok."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12006898757632
+    m_Localized: "Evet, arabuluculuk veya alternatif \xE7\xF6z\xFCm yollar\u0131n\u0131
+      d\xFC\u015F\xFCnd\xFCk ve denedik."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12007955722240
+    m_Localized: "Hay\u0131r, arabuluculuk veya alternatif \xE7\xF6z\xFCm yollar\u0131
+      \xFCzerinde d\xFC\u015F\xFCnmedik."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12009536974848
+    m_Localized: "\u0130\u015Fveren bu t\xFCr bir \xE7\xF6z\xFCme yana\u015Fmad\u0131\u011F\u0131
+      i\xE7in arabuluculuk denemedik."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

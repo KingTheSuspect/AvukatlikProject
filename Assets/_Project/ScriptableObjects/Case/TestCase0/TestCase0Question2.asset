@@ -12,10 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 580f63018b8dae74fa528ca48d39dfe4, type: 3}
   m_Name: TestCase0Question2
   m_EditorClassIdentifier: 
-  <Question>k__BackingField: "M\xFCvekkilinizin i\u015F s\xF6zle\u015Fmesindeki ihlalleri
-    belgelendirebilece\u011Finiz veya tan\u0131klar\u0131n\u0131z var m\u0131?\r"
+  <Question>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:49ca2836e16d4a64d812dff23512d9bf
+    m_TableEntryReference:
+      m_KeyId: 11301731397632
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   answers:
   - {fileID: 11400000, guid: 46aa679d2a6a762459a54b8c536e307c, type: 2}
   - {fileID: 11400000, guid: 5dff805395e6fe6458c0b000e1b9b612, type: 2}
-  - {fileID: 11400000, guid: 2ff02f8f6b35db642a1e5adefadae202, type: 2}
+  - {fileID: 11400000, guid: 1f3ffb32066b2cc4caf7ed0804a3c15c, type: 2}
   trueAnswer: {fileID: 11400000, guid: 1f3ffb32066b2cc4caf7ed0804a3c15c, type: 2}
+  references:
+    version: 2
+    RefIds: []

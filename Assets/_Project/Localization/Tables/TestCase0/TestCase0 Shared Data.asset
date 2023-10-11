@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: TestCase0 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: TestCase0
+  m_TableCollectionNameGuidString: 49ca2836e16d4a64d812dff23512d9bf
+  m_Entries:
+  - m_Id: 19967995904
+    m_Key: CaseSubject
+    m_Metadata:
+      m_Items: []
+  - m_Id: 879104061440
+    m_Key: CaseDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1214031818752
+    m_Key: CaseDescriptionByCompainant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1216254799872
+    m_Key: CaseSummaryByLawyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10920775348224
+    m_Key: Question0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11280055234560
+    m_Key: Question1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11301731397632
+    m_Key: Question2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11326041583616
+    m_Key: Question3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11499958398976
+    m_Key: Question0Answer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11528794238976
+    m_Key: Question0Answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11530832670720
+    m_Key: Question0Answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11677452955648
+    m_Key: Question1Answer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11682985242624
+    m_Key: Question1Answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11684054790144
+    m_Key: Question1Answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11793312215040
+    m_Key: Question2Answer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11794943799296
+    m_Key: Question2Answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11795757494272
+    m_Key: Question2Answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12006898757632
+    m_Key: Question3Answer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12007955722240
+    m_Key: Question3Answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12009536974848
+    m_Key: Question3Answer2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8849450370721120315
+  references:
+    version: 2
+    RefIds:
+    - rid: 8849450370721120315
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1696980424423
