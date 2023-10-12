@@ -18,6 +18,7 @@ public class MarketItemUI : MonoBehaviour
     private void HandleBuyButton()
     {
         marketItemSO.Buy();
+        //buy logic here
     }
 
     public void Init(MarketItemSO marketItemSO)

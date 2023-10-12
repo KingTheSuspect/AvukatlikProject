@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using DG.Tweening;
 using Lean.Pool;
 using UnityEngine;
@@ -9,15 +11,26 @@ public class MarketUI : MonoBehaviour
     [SerializeField] private RectTransform marketPanel;
     [SerializeField] private RectTransform contentParent;
     [SerializeField] private MarketItemUI marketItemUIPrefab;
-    [SerializeField] private MarketItemSO marketItemSO;
+    [SerializeField] private MarketItemDataBase marketItemDataBase;
     [SerializeField] private float scaleDuration = 0.65f;
-    [SerializeField] private int testAmount;
     [SerializeField] private Button marketButton;
+    [SerializeField] private Button closeButton;
+
+    private List<MarketItemUI> marketItems = new();
 
     private void Awake()
     {
         marketButton.onClick.AddListener(HandleMarketButton);
+        marketButton.onClick.AddListener(HandleCloseButton);
         marketPanel.gameObject.SetActive(false);
+    }
+
+    private void HandleCloseButton()
+    {
+        for (int i = marketItems.Count - 1; i >= 0 ; i--)
+        {
+            LeanPool.Despawn(marketItems[i]);
+        }
     }
 
     private void HandleMarketButton()
@@ -30,9 +43,23 @@ public class MarketUI : MonoBehaviour
 
     private void Init()
     {
-        for (int i = 0; i < testAmount; i++)
+        List<OfficeItem> officeItems = Office.CurrentOffice.OfficeItems;
+        List<OfficeMarketItemSO> database = marketItemDataBase.OfficeMarketItems;
+
+        foreach (OfficeItem officeItem in officeItems)
         {
-            LeanPool.Spawn(marketItemUIPrefab, contentParent).Init(marketItemSO);
+            var typeItems = database.FindAll(x => x.OfficeItemType == officeItem.OfficeItemType);
+
+            foreach (var typeItem in typeItems)
+            {
+                if(officeItem.CurrentID < typeItem.ID)
+                {
+                    var spawnedItem = LeanPool.Spawn(marketItemUIPrefab, contentParent);
+                    spawnedItem.Init(typeItem);
+
+                    marketItems.Add(spawnedItem);
+                }
+            }
         }
     }
     

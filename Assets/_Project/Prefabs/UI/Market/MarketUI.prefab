@@ -192,11 +192,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   marketPanel: {fileID: 1362430265903632578}
-  scaleDuration: 0.65
-  marketItemUIPrefab: {fileID: 8049795735181888813, guid: bbb703726e8298a4a9c60108a5bb9cec, type: 3}
-  marketItemSO: {fileID: 11400000, guid: f1b2c65acbe2b394b9d920c7b7c52274, type: 2}
   contentParent: {fileID: 7086368913590918514}
-  testAmount: 15
+  marketItemUIPrefab: {fileID: 8049795735181888813, guid: bbb703726e8298a4a9c60108a5bb9cec, type: 3}
+  marketItemDataBase: {fileID: 11400000, guid: 77da128ac97a63e48becdf165784a4ab, type: 2}
+  scaleDuration: 0.65
   marketButton: {fileID: 3890089571916467258}
 --- !u!1 &5171614260865954806
 GameObject:
