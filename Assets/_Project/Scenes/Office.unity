@@ -215,6 +215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarketUI
       objectReference: {fileID: 0}
+    - target: {fileID: 3998302789380630983, guid: cb8b2669a53978b4886082c4a0c0b773, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -299,6 +303,10 @@ PrefabInstance:
     - target: {fileID: 1434812565810913305, guid: 37425e28e74369b49be982726fd66f3f, type: 3}
       propertyPath: m_Name
       value: Office
+      objectReference: {fileID: 0}
+    - target: {fileID: 1434812565810913305, guid: 37425e28e74369b49be982726fd66f3f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7294825057769120740, guid: 37425e28e74369b49be982726fd66f3f, type: 3}
       propertyPath: m_LocalPosition.x

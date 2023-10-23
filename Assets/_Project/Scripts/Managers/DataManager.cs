@@ -15,6 +15,12 @@ public class DataManager
     }
     public static event UnityAction OnCurrencyUpdate;
 
+    public static int Level
+    {
+        get => PlayerPrefs.GetInt(PlayerPrefsKeys.LevelKey, 1);
+        set => PlayerPrefs.SetInt(PlayerPrefsKeys.LevelKey, value);
+    }
+
 
     public static int Energy
     {
@@ -50,6 +56,7 @@ public class DataManager
 public struct PlayerPrefsKeys
 {
     public static string CurrencyKey = "Currency";
+    public static string LevelKey = "Level";
     public static string PrestigeKey = "Prestige";
     public static string EnergyKey = "Energy";
     public static string LocalizationKey = "Localization";
