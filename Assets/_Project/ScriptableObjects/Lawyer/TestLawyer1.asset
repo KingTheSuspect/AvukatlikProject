@@ -14,6 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <PersonelName>k__BackingField: TestLawyer1
   <PersonelAge>k__BackingField: 21
-  <PersonelSprite>k__BackingField: {fileID: 0}
+  <PersonelSprite>k__BackingField: {fileID: 7482667652216324306, guid: fdbfda8dd6d45fb45b081b03b35d2ecc, type: 3}
+  <Salary>k__BackingField: 1500
   <ID>k__BackingField: 1
   <SkillPoint>k__BackingField: 5
+  lawyerTitle:
+    m_TableReference:
+      m_TableCollectionName: GUID:a5458d075f9e617419148a8ca7eb29b0
+    m_TableEntryReference:
+      m_KeyId: 46023012352
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

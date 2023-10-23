@@ -22,6 +22,18 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c5e97acf02736443b1a2a236fef6b11
+    m_Address: Assets/_Project/Localization/Tables/UI/ClientsUI/ClientsUI Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5458d075f9e617419148a8ca7eb29b0
+    m_Address: Assets/_Project/Localization/Tables/LawyerTitles/LawyerTitles Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 12f29d0f2ad376b40ae87f5a35cf085c, type: 2}
   m_SchemaSet:
