@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NewMainMenuKeys_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: f6c765596e122994cbfef78179b87966, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 10153324544
+    m_Localized: "M\xDC\u015ETER\u0130LER"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106790088704
+    m_Localized: "HAR\u0130TA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184128860160
+    m_Localized: "OF\u0130S"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267633258496
+    m_Localized: "S\xDCRE\xC7LER"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537834516480
+    m_Localized: "\u0130PTAL"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579165188096
+    m_Localized: KABUL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110906466304
+    m_Localized: AVUKAT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1143349407744
+    m_Localized: "Y\xDCKSELT"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1525651828736
+    m_Localized: AL
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -11,22 +11,24 @@ public class SettingsPanel : MonoBehaviour
 
     [SerializeField] private float scaleDuration = 0.75f;
 
+    private bool isActive = false;
+
     private void Awake()
     {
         muteMusicButton.onClick.AddListener(HandleMuteMusicButton);
         muteSfxButton.onClick.AddListener(HandleMuteSfxButton);
         closeButton.onClick.AddListener(HandleCloseButton);
+
+        gameObject.SetActive(false);
     }
 
     private void HandleCloseButton()
     {
-        void CompleteAction()
-        {
-            gameObject.SetActive(false);
-        }
-
         transform.localScale = Vector3.one;
-        PlayScaleAnimation(Vector3.zero, Ease.InBack, CompleteAction);
+        PlayScaleAnimation(Vector3.zero, Ease.InBack, ()=> {
+            gameObject.SetActive(false);
+            isActive = false;
+            });
     }
 
     private void HandleMuteSfxButton()
@@ -41,6 +43,9 @@ public class SettingsPanel : MonoBehaviour
 
     public void Init()
     {
+        if(isActive)
+            return;
+        
         gameObject.SetActive(true);
         transform.localScale = Vector3.zero;
         PlayScaleAnimation(Vector3.one, Ease.OutBack, null);

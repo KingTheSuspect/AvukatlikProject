@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: NewMainMenuKeys Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: NewMainMenuKeys
+  m_TableCollectionNameGuidString: f6c765596e122994cbfef78179b87966
+  m_Entries:
+  - m_Id: 10153324544
+    m_Key: ClientsHeaderKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106790088704
+    m_Key: MapKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184128860160
+    m_Key: OfficeKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 267633258496
+    m_Key: ProcessesKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537834516480
+    m_Key: CancelKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 579165188096
+    m_Key: AcceptKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1110906466304
+    m_Key: LawyerKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1143349407744
+    m_Key: UpgradeKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1525651828736
+    m_Key: BuyKey
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8849450818254405640
+  references:
+    version: 2
+    RefIds:
+    - rid: 8849450818254405640
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1698691236301
