@@ -36,7 +36,6 @@ public class AudioManager : MonoBehaviour
     public void ToggleMusic()
     {
         MuteMusic = !MuteMusic;
-
         SetMusicVolume(MuteMusic ? 0.0001f : 1);
     }
 
@@ -44,5 +43,17 @@ public class AudioManager : MonoBehaviour
     {
         MuteSfx = !MuteSfx;
         SetSfxVolume(MuteSfx ? 0.0001f : 1);
+    }
+
+    public void ToggleSFX(bool enabled)
+    {
+        MuteSfx = enabled;
+        SetSfxVolume(MuteSfx ? 1 : 0.0001f);
+    }
+
+    public void ToggleMusic(bool enabled)
+    {
+        MuteMusic = enabled;
+        SetMusicVolume(MuteMusic ? 1 : 0.0001f);
     }
 }

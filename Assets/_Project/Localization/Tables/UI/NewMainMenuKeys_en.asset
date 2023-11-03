@@ -54,6 +54,18 @@ MonoBehaviour:
     m_Localized: BUY
     m_Metadata:
       m_Items: []
+  - m_Id: 1476431925178368
+    m_Localized: SETTINGS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1508446082920448
+    m_Localized: On
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1508479717044224
+    m_Localized: Off
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

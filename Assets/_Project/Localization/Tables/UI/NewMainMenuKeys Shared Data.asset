@@ -51,6 +51,18 @@ MonoBehaviour:
     m_Key: BuyKey
     m_Metadata:
       m_Items: []
+  - m_Id: 1476431925178368
+    m_Key: SettingsKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1508446082920448
+    m_Key: OnKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1508479717044224
+    m_Key: OffKey
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -54,6 +54,18 @@ MonoBehaviour:
     m_Localized: AL
     m_Metadata:
       m_Items: []
+  - m_Id: 1476431925178368
+    m_Localized: AYARLAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1508446082920448
+    m_Localized: "A\xE7\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1508479717044224
+    m_Localized: "Kapal\u0131"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
