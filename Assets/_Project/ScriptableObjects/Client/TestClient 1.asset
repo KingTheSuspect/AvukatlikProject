@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a3bd7c335f7e514e8f73d0006fc3e20, type: 3}
-  m_Name: TestClient1
+  m_Name: TestClient 1
   m_EditorClassIdentifier: 
   <ID>k__BackingField: 1
-  <ClientName>k__BackingField: TestClientName1
-  <ClientCase>k__BackingField: {fileID: 11400000, guid: 31e03c0fa1ae1d04aa4e34886e696c6f, type: 2}
+  <ClientName>k__BackingField: X
+  <ClientCase>k__BackingField: {fileID: 11400000, guid: ca21a4a5478a3e84184bc1dd5e5a0402, type: 2}
   <ClientSprite>k__BackingField: {fileID: 21300000, guid: 194b415fea3cbe849b1f6d6c1d43ecd4, type: 3}
+  <IsCompleted>k__BackingField: 0

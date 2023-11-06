@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TestCase1_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 1341164f00a124e4a840b899df0dc786, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 86577737728
+    m_Localized: "Hasta Bak\u0131m Hizmeti Anla\u015Fmas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322603806720
+    m_Localized: "Anla\u015Fm\u0131\u015F oldu\u011Fumuz hasta bak\u0131m hizmeti
+      sa\u011Flay\u0131c\u0131s\u0131, belirtilen hizmetleri eksik veya d\xFCzensiz
+      bir \u015Fekilde yerine getiriyor. Anla\u015Fmam\u0131z\u0131n ko\u015Fullar\u0131na
+      uyulmas\u0131n\u0131 talep ediyoruz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692080046080
+    m_Localized: "X, hasta bak\u0131m hizmeti sa\u011Flay\u0131c\u0131s\u0131yla
+      yap\u0131lan bir s\xF6zle\u015Fmenin ko\u015Fullar\u0131na uyulmad\u0131\u011F\u0131n\u0131
+      iddia ediyor. M\xFCvekkilimiz, sa\u011Flay\u0131c\u0131n\u0131n hizmetlerini
+      eksik veya d\xFCzensiz bir \u015Fekilde yerine getirdi\u011Fini belirtiyor
+      ve anla\u015Fman\u0131n ko\u015Fullar\u0131n\u0131n sa\u011Flanmas\u0131n\u0131
+      talep ediyor. Bu dava, hizmet anla\u015Fmalar\u0131 ve s\xF6zle\u015Fme ihlalleri
+      \xFCzerine odaklan\u0131yor. \u0130ddialar\u0131 desteklemek i\xE7in hizmet
+      anla\u015Fmas\u0131, hizmet sa\u011Flay\u0131c\u0131s\u0131n\u0131n eksikliklerini
+      g\xF6steren belgeler, \u015Fikayetler ve yaz\u0131\u015Fmalar dava dosyas\u0131n\u0131n
+      temel dayanaklar\u0131d\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 879204724736
+    m_Localized: "Say\u0131n avukat, m\xFCvekkiliniz hasta bak\u0131m hizmeti sa\u011Flay\u0131c\u0131s\u0131yla
+      yap\u0131lan bir s\xF6zle\u015Fmenin ko\u015Fullar\u0131na uyulmad\u0131\u011F\u0131n\u0131
+      belirtti. Bu iddiay\u0131 desteklemek i\xE7in hangi kan\u0131tlara sahipsiniz?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 882535002112
+    m_Localized: "M\xFCvekkiliniz, hizmet sa\u011Flay\u0131c\u0131s\u0131n\u0131n
+      hizmetlerini eksik veya d\xFCzensiz bir \u015Fekilde yerine getirdi\u011Fini
+      iddia ediyor. Bu iddiay\u0131 desteklemek i\xE7in hangi belgelere sahipsiniz?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 884795731968
+    m_Localized: "Son olarak, hizmet sa\u011Flay\u0131c\u0131s\u0131n\u0131n hizmetleri
+      eksik veya d\xFCzensiz bir \u015Fekilde yerine getirdi\u011Fini savunuyorsunuz.
+      Bu savunman\u0131z\u0131 desteklemek i\xE7in hangi delilleri sunacaks\u0131n\u0131z?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127268446208
+    m_Localized: "Hasta bak\u0131m hizmeti sa\u011Flay\u0131c\u0131s\u0131yla yap\u0131lan
+      s\xF6zle\u015Fme sunuldu ve hizmetlerin belirli ko\u015Fullara tabi oldu\u011Fu
+      belirtiliyor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1139192852480
+    m_Localized: "Hizmet eksikliklerini g\xF6steren belgeler ve \u015Fikayetler sunuldu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141256450048
+    m_Localized: "Hasta bak\u0131m hizmeti sa\u011Flay\u0131c\u0131s\u0131n\u0131n
+      hizmetlerin belirtilen ko\u015Fullara uygun oldu\u011Funu belirten yaz\u0131\u015Fmalar
+      sunuldu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1166816538624
+    m_Localized: "Hasta bak\u0131m hizmeti sa\u011Flay\u0131c\u0131s\u0131n\u0131n
+      anla\u015Fman\u0131n ko\u015Fullar\u0131na uyuldu\u011Funu belirten yaz\u0131\u015Fmalar
+      sunuldu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1168104189952
+    m_Localized: "Hizmet anla\u015Fmas\u0131n\u0131n belirtilen hizmetleri i\xE7eren
+      b\xF6l\xFCm\xFC sunuldu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1169240846336
+    m_Localized: "Hizmet eksikliklerini g\xF6steren belgeler sunuldu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1207463538688
+    m_Localized: "Hasta bak\u0131m hizmeti sa\u011Flay\u0131c\u0131s\u0131n\u0131n
+      daha \xF6nceki m\xFC\u015Fterilere verdi\u011Fi hizmetle ilgili \u015Fikayetler
+      mevcut."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1209111900160
+    m_Localized: "Hasta bak\u0131m hizmeti sa\u011Flay\u0131c\u0131s\u0131n\u0131n
+      daha \xF6nceki m\xFC\u015Fterilere verdi\u011Fi hizmetleri i\xE7eren kay\u0131tlar
+      sunuldu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1210298888192
+    m_Localized: "Hasta bak\u0131m hizmeti sa\u011Flay\u0131c\u0131s\u0131n\u0131n
+      hizmetlerin belirtilen ko\u015Fullara uygun oldu\u011Funu belirten belgeler
+      sunuldu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104353198080
+    m_Localized: "Anla\u015Fm\u0131\u015F oldu\u011Fumuz hasta bak\u0131m hizmeti
+      sa\u011Flay\u0131c\u0131s\u0131, belirtilen hizmetleri eksik veya d\xFCzensiz
+      bir \u015Fekilde yerine getiriyor. Anla\u015Fmam\u0131z\u0131n ko\u015Fullar\u0131na
+      uyulmas\u0131n\u0131 talep ediyoruz."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

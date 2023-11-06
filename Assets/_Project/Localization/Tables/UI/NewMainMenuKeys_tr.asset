@@ -66,6 +66,26 @@ MonoBehaviour:
     m_Localized: "Kapal\u0131"
     m_Metadata:
       m_Items: []
+  - m_Id: 1510621072814080
+    m_Localized: "HAK\u0130M"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1524859975725056
+    m_Localized: MAHKEME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2215266325852160
+    m_Localized: ZAFER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2215368733978624
+    m_Localized: KAYIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2218296773406720
+    m_Localized: "\u0130LERLE"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

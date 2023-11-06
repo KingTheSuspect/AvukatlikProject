@@ -18,7 +18,7 @@ public class ClientDescPanel : MonoBehaviour
 
     private CanvasGroup canvasGroup;
 
-    private static event UnityAction OnCaseAccepted;
+    public static event UnityAction<ClientSO> OnCaseAccepted;
     
 
     private void Awake()
@@ -31,11 +31,14 @@ public class ClientDescPanel : MonoBehaviour
         ClosePanel(true);
     }
 
-    private void ClosePanel(bool isInstant = false)
+    private void ClosePanel(bool isInstant = false, UnityAction completeAction = null)
     {
         if(!isInstant)
         {
-            PlayScaleAnimation(Vector3.zero, Ease.InBack, ()=> canvasGroup.alpha = 0);
+            PlayScaleAnimation(Vector3.zero, Ease.InBack, ()=> {
+                canvasGroup.alpha = 0;
+                completeAction?.Invoke();
+                });
         }
         else
         {
@@ -55,14 +58,17 @@ public class ClientDescPanel : MonoBehaviour
     {
         OpenPanel();
         clientImage.sprite = client.ClientSprite;
-        priceText.text = client.ClientCase.CasePrice.ToString();
+        priceText.text = $"$ {client.ClientCase.CasePrice}";
         clientNameText.text = client.ClientName;
 
         string caseName = client.ClientCase.GetCaseSubject;
         string desc = caseName + ":" + "\n" + client.ClientCase.GetCaseDescription;
-        desc = desc.Replace("\r", "");  //to fix the problem of words overlapping each other.
+        desc = Helpers.FixTMPOverlap(desc, false);  //to fix the problem of words overlapping each other.
         caseDescText.text = desc;
+
+        clientSO = client;
     }
+    private ClientSO clientSO;
 
     private void HandleCancelListener()
     {
@@ -71,8 +77,7 @@ public class ClientDescPanel : MonoBehaviour
 
     private void HandleAcceptListener()
     {
-        ClosePanel();
-        OnCaseAccepted?.Invoke(); //TODO clienti clientspanel listesinden silecek
+        ClosePanel(completeAction: ()=> OnCaseAccepted?.Invoke(clientSO)); //TODO clienti clientspanel listesinden silecek
     }
 
     private void PlayScaleAnimation(Vector3 target, Ease easeType, UnityAction completeAction)

@@ -66,6 +66,26 @@ MonoBehaviour:
     m_Localized: Off
     m_Metadata:
       m_Items: []
+  - m_Id: 1510621072814080
+    m_Localized: JUDGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1524859975725056
+    m_Localized: COURT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2215266325852160
+    m_Localized: WIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2215368733978624
+    m_Localized: LOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2218296773406720
+    m_Localized: CONTINUE
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

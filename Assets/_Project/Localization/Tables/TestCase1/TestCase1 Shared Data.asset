@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: TestCase1 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: TestCase1
+  m_TableCollectionNameGuidString: 1341164f00a124e4a840b899df0dc786
+  m_Entries:
+  - m_Id: 86577737728
+    m_Key: CaseSubject
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104353198080
+    m_Key: CaseDescription
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322603806720
+    m_Key: CaseDescriptionByCompainant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 692080046080
+    m_Key: CaseSummaryByLawyer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 879204724736
+    m_Key: Question0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 882535002112
+    m_Key: Question1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 884795731968
+    m_Key: 'Question2
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1127268446208
+    m_Key: Question0Answer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1139192852480
+    m_Key: Question0Answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1141256450048
+    m_Key: Question0Answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1166816538624
+    m_Key: Question1Answer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1168104189952
+    m_Key: Question1Answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1169240846336
+    m_Key: Question1Answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1207463538688
+    m_Key: Question2Answer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1209111900160
+    m_Key: Question2Answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1210298888192
+    m_Key: Question2Answer2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8793095903023202306
+  references:
+    version: 2
+    RefIds:
+    - rid: 8793095903023202306
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1699292512884

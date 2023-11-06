@@ -5,7 +5,6 @@ using UnityEngine.Events;
 using System.Collections;
 using UnityEngine.Localization.Settings;
 using TMPro;
-using System.Runtime.CompilerServices;
 
 public class SettingsPanel : MonoBehaviour
 {
@@ -22,6 +21,8 @@ public class SettingsPanel : MonoBehaviour
 
     [SerializeField] private float scaleDuration = 0.75f;   
 
+    [SerializeField] private Button settingsWindow;
+
     private bool isActive = false;
 
     private void Awake()
@@ -33,9 +34,8 @@ public class SettingsPanel : MonoBehaviour
         notificationButtons.OffButton.onClick.AddListener(HandleNotificationOffButton);
 
         closeButton.onClick.AddListener(HandleCloseButton);
+        settingsWindow.onClick.AddListener(HandleCloseButton);
         languageButton.onClick.AddListener(HandleLanguageButton);
-        
-        languageText.text = Helpers.GetLanguage(DataManager.LocalizationID);
 
         gameObject.SetActive(false);
     }
@@ -67,13 +67,13 @@ public class SettingsPanel : MonoBehaviour
     private void HandleSoundOffButton()
     {
         soundButtons.HandleOffButton();
-        Managers.Instance.AudioManager.ToggleSFX(false);
+        Managers.Instance.AudioManager.ToggleSound(false);
     }
 
     private void HandleSoundOnButton()
     {
         soundButtons.HandleOnButton();
-        Managers.Instance.AudioManager.ToggleSFX(true);
+        Managers.Instance.AudioManager.ToggleSound(true);
     }
 
     private void HandleNotificationOnButton()
@@ -100,9 +100,18 @@ public class SettingsPanel : MonoBehaviour
         if(isActive)
             return;
         
+        isActive = true;
         gameObject.SetActive(true);
         panel.transform.localScale = Vector3.zero;
+        languageText.text = Helpers.GetLanguage(DataManager.LocalizationID);
         PlayScaleAnimation(Vector3.one, Ease.OutBack, null);
+
+        if(!AudioManager.MuteSfx)
+            soundButtons.HandleOnButton();
+        else
+            soundButtons.HandleOffButton();
+
+        //TODO handle notification
     }
 
     private void PlayScaleAnimation(Vector3 target, Ease easeType, UnityAction completeAction)

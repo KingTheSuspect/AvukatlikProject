@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 580f63018b8dae74fa528ca48d39dfe4, type: 3}
+  m_Name: TestCase1Question0
+  m_EditorClassIdentifier: 
+  <Question>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:1341164f00a124e4a840b899df0dc786
+    m_TableEntryReference:
+      m_KeyId: 879204724736
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  answers:
+  - {fileID: 11400000, guid: 4dea64d0f86a0ec41ab629d7b9ec599f, type: 2}
+  - {fileID: 11400000, guid: 05e4c4dc6e9a3054fabd2ffd1f5984bb, type: 2}
+  - {fileID: 11400000, guid: 1a9432b038e9bcd4e86323d192e82a50, type: 2}
+  trueAnswer: {fileID: 11400000, guid: 4dea64d0f86a0ec41ab629d7b9ec599f, type: 2}
+  references:
+    version: 2
+    RefIds: []
