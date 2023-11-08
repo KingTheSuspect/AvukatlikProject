@@ -35,9 +35,13 @@ public class CourtUI : MonoBehaviour
     public ClientSO CurrentClient => currentClient;
 
     public static event UnityAction<CaseSO> OnCaseCompleted;
+
+    public static event UnityAction OnCaseStarted;
     public static event UnityAction OnCourtUIDeinit;
 
     public static int CurrentTrueAnswerCount = 0;
+
+    public CourtTimeManager CourtTimeManager {get; private set;}
 
     private void Awake()
     {
@@ -51,16 +55,18 @@ public class CourtUI : MonoBehaviour
 
         panel.gameObject.SetActive(false);
         tempImage.enabled = false;
+
+        CourtTimeManager = GetComponent<CourtTimeManager>();
     }
 
     private void Start()
     {
-        ClientDescPanel.OnCaseAccepted += HandleCaseAccept;   
+        CaseVisualDescPanel.OnCaseAccepted += HandleCaseAccept;   
     }
 
     private void OnDestroy()
     {
-        ClientDescPanel.OnCaseAccepted -= HandleCaseAccept;   
+        CaseVisualDescPanel.OnCaseAccepted -= HandleCaseAccept;   
     }
 
     private void HandleCaseAccept(ClientSO clientSo)
@@ -163,6 +169,11 @@ public class CourtUI : MonoBehaviour
         void HandleTextComplete()
         {
             prefab.OnTextComplete -= HandleTextComplete;
+
+            if(questionIndex == 0)
+                OnCaseStarted?.Invoke();
+
+            
             InitAnswers();
         }
 

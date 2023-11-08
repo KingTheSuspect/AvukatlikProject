@@ -11,21 +11,21 @@ public class ClientDescPanel : MonoBehaviour
     [SerializeField] private TextMeshProUGUI clientNameText;
     [SerializeField] private TextMeshProUGUI caseDescText;
 
-    [SerializeField] private Button acceptButton;
-    [SerializeField] private Button cancelButton;
+    [SerializeField] private Button continueButton;
+    [SerializeField] private Button backButton;
 
     [SerializeField] private float scaleDuration = 0.75f;
 
     private CanvasGroup canvasGroup;
 
-    public static event UnityAction<ClientSO> OnCaseAccepted;
+    public static event UnityAction<ClientSO> OnCaseContinued;
     
 
     private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
-        acceptButton.onClick.AddListener(HandleAcceptListener);    
-        cancelButton.onClick.AddListener(HandleCancelListener);    
+        continueButton.onClick.AddListener(HandleContinueListener);    
+        backButton.onClick.AddListener(HandleBackListener);    
 
         ClientInfoUI.OnClientSelected += HandleClientSelected;
         ClosePanel(true);
@@ -70,14 +70,15 @@ public class ClientDescPanel : MonoBehaviour
     }
     private ClientSO clientSO;
 
-    private void HandleCancelListener()
+    private void HandleBackListener()
     {
         ClosePanel();
     }
 
-    private void HandleAcceptListener()
+    private void HandleContinueListener()
     {
-        ClosePanel(completeAction: ()=> OnCaseAccepted?.Invoke(clientSO)); //TODO clienti clientspanel listesinden silecek
+        OnCaseContinued?.Invoke(clientSO); 
+        ClosePanel(isInstant: true);
     }
 
     private void PlayScaleAnimation(Vector3 target, Ease easeType, UnityAction completeAction)

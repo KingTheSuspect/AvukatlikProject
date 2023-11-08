@@ -35,7 +35,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 537834516480
-    m_Localized: "\u0130PTAL"
+    m_Localized: REDDET
     m_Metadata:
       m_Items: []
   - m_Id: 579165188096
@@ -84,6 +84,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 2218296773406720
     m_Localized: "\u0130LERLE"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3170640449204224
+    m_Localized: "GER\u0130"
     m_Metadata:
       m_Items: []
   references:

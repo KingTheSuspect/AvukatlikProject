@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ACCEPT
+  m_text: CONTINUE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d41b65c99817ac74b91eebf655f3c1a3, type: 2}
   m_sharedMaterial: {fileID: 5743853458966136684, guid: d41b65c99817ac74b91eebf655f3c1a3, type: 2}
@@ -151,7 +151,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:f6c765596e122994cbfef78179b87966
     m_TableEntryReference:
-      m_KeyId: 579165188096
+      m_KeyId: 2218296773406720
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -285,8 +285,8 @@ MonoBehaviour:
   priceText: {fileID: 6162009808416648474}
   clientNameText: {fileID: 727246895590564209}
   caseDescText: {fileID: 3554808963464683329}
-  acceptButton: {fileID: 1023208023285518876}
-  cancelButton: {fileID: 1661286114934588949}
+  continueButton: {fileID: 1023208023285518876}
+  backButton: {fileID: 1661286114934588949}
   scaleDuration: 0.55
 --- !u!1 &4244036832496670552
 GameObject:
@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 547728127731644286}
   - component: {fileID: 1661286114934588949}
   m_Layer: 5
-  m_Name: CancelButton
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1052,7 +1052,7 @@ GameObject:
   - component: {fileID: 8390731697736761927}
   - component: {fileID: 1023208023285518876}
   m_Layer: 5
-  m_Name: AcceptButton
+  m_Name: ContinueButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1226,7 +1226,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CANCEL
+  m_text: BACK
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d41b65c99817ac74b91eebf655f3c1a3, type: 2}
   m_sharedMaterial: {fileID: 5743853458966136684, guid: d41b65c99817ac74b91eebf655f3c1a3, type: 2}
@@ -1311,7 +1311,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:f6c765596e122994cbfef78179b87966
     m_TableEntryReference:
-      m_KeyId: 537834516480
+      m_KeyId: 3170640449204224
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
