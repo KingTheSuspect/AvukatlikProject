@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -46,6 +47,12 @@ public abstract class JokerBase : MonoBehaviour
             yield return new WaitForSeconds(GetJokerCooldown());
             button.interactable = true;
         }
+    }
+
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+        button.interactable = true;
     }
 
 }
