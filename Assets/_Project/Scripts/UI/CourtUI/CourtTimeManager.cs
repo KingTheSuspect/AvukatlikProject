@@ -33,16 +33,17 @@ public class CourtTimeManager : MonoBehaviour
         }
     }
 
-    public void StopTimer(float stopTime)
+    public void StopTimer()
     {
-        StartCoroutine(StopTimerCoroutine(stopTime));
+        isActive = false;
 
-        IEnumerator StopTimerCoroutine(float stopTime)
+        void HandleLawyerAnswered()
         {
-            isActive = false;
-            yield return new WaitForSeconds(stopTime);
             isActive = true;
+            CourtUI.OnLawyerAnswered -= HandleLawyerAnswered;
         }
+
+        CourtUI.OnLawyerAnswered += HandleLawyerAnswered;
     }
 
     private void HandleCaseStart()

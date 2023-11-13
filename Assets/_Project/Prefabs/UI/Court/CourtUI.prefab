@@ -720,9 +720,9 @@ GameObject:
   - component: {fileID: 5699876666633781398}
   - component: {fileID: 585231910962018860}
   - component: {fileID: 1955971818189822915}
-  - component: {fileID: 1460850271417827178}
+  - component: {fileID: 5633359040485470072}
   m_Layer: 5
-  m_Name: StopTimeJoker_1
+  m_Name: HalftoHalfJoker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,7 +830,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1460850271417827178
+--- !u!114 &5633359040485470072
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -839,13 +839,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1586155414718523307}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b78f5d3b500cc4045850b6b5518a5cb8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d3a015b6ffaacf4e9630d9a7ca3c837, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jokerName: StopTime
-  jokerSprite: {fileID: 21300000, guid: b5537c5425fe7554f89135030c27aec9, type: 3}
+  jokerName: HalftoHalf
+  jokerSprite: {fileID: 21300000, guid: 7ea6252cf9a956642a670e90d9f0fde9, type: 3}
   image: {fileID: 3722543058281950733}
-  stopTime: 5
 --- !u!1 &1685690136133294765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,9 +2379,9 @@ GameObject:
   - component: {fileID: 6836941108232714709}
   - component: {fileID: 2961831533226181712}
   - component: {fileID: 1567289128161301780}
-  - component: {fileID: 9067352662964708122}
+  - component: {fileID: 2663434696333880164}
   m_Layer: 5
-  m_Name: StopTimeJoker_3
+  m_Name: CourtDecideJoker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2490,7 +2489,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &9067352662964708122
+--- !u!114 &2663434696333880164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2499,13 +2498,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5186231559969525616}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b78f5d3b500cc4045850b6b5518a5cb8, type: 3}
+  m_Script: {fileID: 11500000, guid: e9154843bfcf199469dd57eb47ba231c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jokerName: StopTime
-  jokerSprite: {fileID: 21300000, guid: b5537c5425fe7554f89135030c27aec9, type: 3}
+  jokerName: CourtDecide
+  jokerSprite: {fileID: 21300000, guid: 3678deae8026dd74d89a5f9980c3ef4c, type: 3}
   image: {fileID: 6461309849160521960}
-  stopTime: 5
 --- !u!1 &5193977448602709726
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,7 +4180,6 @@ MonoBehaviour:
   jokerName: StopTime
   jokerSprite: {fileID: 21300000, guid: b5537c5425fe7554f89135030c27aec9, type: 3}
   image: {fileID: 1034526251440509694}
-  stopTime: 5
 --- !u!1 &7033369149762085230
 GameObject:
   m_ObjectHideFlags: 0
@@ -4613,9 +4610,9 @@ GameObject:
   - component: {fileID: 319209672427150305}
   - component: {fileID: 3380946791022812877}
   - component: {fileID: 8579176036452985525}
-  - component: {fileID: 7242451546394652196}
+  - component: {fileID: 1799224119614722874}
   m_Layer: 5
-  m_Name: StopTimeJoker_2
+  m_Name: WitnessJoker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4723,7 +4720,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7242451546394652196
+--- !u!114 &1799224119614722874
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4732,13 +4729,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7640744818023336077}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b78f5d3b500cc4045850b6b5518a5cb8, type: 3}
+  m_Script: {fileID: 11500000, guid: ceab75807c9a16741a8ab8d2adcd9900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jokerName: StopTime
-  jokerSprite: {fileID: 21300000, guid: b5537c5425fe7554f89135030c27aec9, type: 3}
+  jokerName: Witness
+  jokerSprite: {fileID: 21300000, guid: 9b7d55be4837170419f317a4a4f815af, type: 3}
   image: {fileID: 196657735442678051}
-  stopTime: 5
 --- !u!1 &7732832490540294897
 GameObject:
   m_ObjectHideFlags: 0

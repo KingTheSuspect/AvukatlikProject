@@ -38,8 +38,12 @@ public class CourtUI : MonoBehaviour
 
     public static event UnityAction OnCaseStarted;
     public static event UnityAction OnCourtUIDeinit;
+    public static event UnityAction OnJudgeQuestionCompleted;
+    public static event UnityAction OnLawyerAnswered;
 
     public static int CurrentTrueAnswerCount = 0;
+
+    public bool IsLawyerTurn {get; private set;} = false;
 
     public CourtTimeManager CourtTimeManager {get; private set;}
 
@@ -121,8 +125,15 @@ public class CourtUI : MonoBehaviour
         }
     }
 
+    public List<CourtAnswerUI> GetAnswers()
+    {
+        return answers;
+    }
+
     public void AddLawyerText(string lawyerText)
     {
+        OnLawyerAnswered?.Invoke();
+        IsLawyerTurn = false;
         var prefab = LeanPool.Spawn(lawyerTextPrefab, fakeContentParent);
         
         answers.ForEach(x => x.Hide());
@@ -169,6 +180,8 @@ public class CourtUI : MonoBehaviour
         void HandleTextComplete()
         {
             prefab.OnTextComplete -= HandleTextComplete;
+            OnJudgeQuestionCompleted?.Invoke();
+            IsLawyerTurn = true;
 
             if(questionIndex == 0)
                 OnCaseStarted?.Invoke();

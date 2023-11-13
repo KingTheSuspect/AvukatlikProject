@@ -1,3 +1,4 @@
+using System;
 using NaughtyAttributes;
 using UnityEngine;
 
@@ -11,11 +12,18 @@ public class CourtEndUI : MonoBehaviour
     private void Start()
     {
         CourtUI.OnCaseCompleted += HandleCaseComplete;
+        CourtDecideJoker.OnDecideJokerClicked += HandleJokerClicked;
+    }
+
+    private void HandleJokerClicked(CaseSO caseSO)
+    {
+        Init(true, 3, caseSO.CaseIncome);
     }
 
     private void OnDestroy()
     {
         CourtUI.OnCaseCompleted -= HandleCaseComplete;
+        CourtDecideJoker.OnDecideJokerClicked -= HandleJokerClicked;
     }
 
     private void HandleCaseComplete(CaseSO caseSO)

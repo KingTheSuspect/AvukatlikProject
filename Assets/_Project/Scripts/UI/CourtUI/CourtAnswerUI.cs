@@ -11,6 +11,8 @@ public class CourtAnswerUI : MonoBehaviour
     private bool isTrueAnswer;
     private AnswerSO answerSO;
 
+    public bool IsTrueAnswer => isTrueAnswer;
+
     private void Awake()
     {
         button.onClick.AddListener(HandleButton);
@@ -32,7 +34,7 @@ public class CourtAnswerUI : MonoBehaviour
 
     private void EnableButton(bool enabled) => button.interactable = enabled;
 
-    private void HandleButton()
+    public void HandleButton()
     {
         if(answerSO == null)
             return;
