@@ -38,6 +38,10 @@ MonoBehaviour:
     m_Localized: en question0
     m_Metadata:
       m_Items: []
+  - m_Id: 9027963747004416
+    m_Localized: start text
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

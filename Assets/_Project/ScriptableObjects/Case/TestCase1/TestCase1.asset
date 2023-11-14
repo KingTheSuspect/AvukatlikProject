@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4888ff9629b854895860f7ede020e0, type: 3}
+  m_Name: TestCase1
+  m_EditorClassIdentifier: 
+  <ID>k__BackingField: 1
+  <ComplainantName>k__BackingField: X
+  <CaseSubject>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:1341164f00a124e4a840b899df0dc786
+    m_TableEntryReference:
+      m_KeyId: 86577737728
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <CaseDescription>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:1341164f00a124e4a840b899df0dc786
+    m_TableEntryReference:
+      m_KeyId: 104353198080
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <CaseDescriptionByComplainant>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:1341164f00a124e4a840b899df0dc786
+    m_TableEntryReference:
+      m_KeyId: 322603806720
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <CaseSummaryByLawyer>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:1341164f00a124e4a840b899df0dc786
+    m_TableEntryReference:
+      m_KeyId: 692080046080
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <JudgeStartText>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:49ca2836e16d4a64d812dff23512d9bf
+    m_TableEntryReference:
+      m_KeyId: 9027963747004416
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <CaseType>k__BackingField: 0
+  <Prestige>k__BackingField: 40
+  <CaseIncome>k__BackingField: 5000
+  <CasePrice>k__BackingField: 300
+  questions:
+  - {fileID: 11400000, guid: c4b450888b0fde246a41d3056cb20876, type: 2}
+  - {fileID: 11400000, guid: 4988065016240b34787ccc355b357095, type: 2}
+  - {fileID: 11400000, guid: c6361b79f4d1ee24fb8db2aa6385c33a, type: 2}
+  references:
+    version: 2
+    RefIds: []

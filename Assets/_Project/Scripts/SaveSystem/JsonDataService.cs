@@ -71,7 +71,7 @@ public class JsonDataService : IDataService
         if (!File.Exists(path))
         {
             Debug.LogError($"Cannot load file at {path}. File does not exist!");
-            throw new FileNotFoundException($"{path} does not exist!");
+            return default;
         }
 
         try

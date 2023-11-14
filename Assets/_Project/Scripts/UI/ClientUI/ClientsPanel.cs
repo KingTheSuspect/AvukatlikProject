@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+using System;
 using Lean.Pool;
 using NaughtyAttributes;
 using UnityEngine;
@@ -11,26 +11,32 @@ public class ClientsPanel : MonoBehaviour
 
     [SerializeField] private ClientDataBase clientDataBase;
 
-    [SerializeField] private int clientTestValue = 5;
-
-    [SerializeField] private List<ClientSO> clientSOs;
-
-
-
-    //this is temp, just for testing
-
-    void Start()
+    private void Start()
     {
         Init();
+
+        CourtUI.OnCourtUIDeinit += HandleCourtUIDeinit;
+    }
+
+    private void OnDestroy()
+    {
+        CourtUI.OnCourtUIDeinit -= HandleCourtUIDeinit;
+    }
+
+    private void HandleCourtUIDeinit()
+    {
+        this.DelaySeconds(0.25f, Init);
     }
 
     [Button]
     public void Init()
     {
-        for (int i = 0; i < clientTestValue; i++)
+        DeInit();
+        var clients = clientDataBase.GetUncompletedClients();
+
+        foreach (ClientSO client in clients)
         {
-            ClientSO clientSO = clientSOs[i < clientSOs.Count ? i : clientSOs.Count - 1];
-            LeanPool.Spawn(clientInfoUIPrefab, contentParent).Init(clientSO);
+            LeanPool.Spawn(clientInfoUIPrefab, contentParent).Init(client);
         }
     }
 

@@ -1,10 +1,20 @@
 using System.Collections.Generic;
+using System.Linq;
 using NaughtyAttributes;
 using UnityEngine;
 
 public class ClientDataBase : ScriptableObject
 {
     [SerializeField, Expandable] private List<ClientSO> clients;
+
+    [SerializeField] private ClientSystem clientSystem;
+
+    public List<ClientSO> GetUncompletedClients()
+    {
+        clientSystem.Load();
+        
+        return clients.Where(x => !clientSystem.CompletedClients.Contains(x)).ToList();
+    }
 
     public bool TryGetPersonel(int personelId, out ClientSO clientSO)
     {

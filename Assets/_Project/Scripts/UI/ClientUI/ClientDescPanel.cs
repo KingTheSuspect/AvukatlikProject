@@ -11,31 +11,34 @@ public class ClientDescPanel : MonoBehaviour
     [SerializeField] private TextMeshProUGUI clientNameText;
     [SerializeField] private TextMeshProUGUI caseDescText;
 
-    [SerializeField] private Button acceptButton;
-    [SerializeField] private Button cancelButton;
+    [SerializeField] private Button continueButton;
+    [SerializeField] private Button backButton;
 
     [SerializeField] private float scaleDuration = 0.75f;
 
     private CanvasGroup canvasGroup;
 
-    private static event UnityAction OnCaseAccepted;
+    public static event UnityAction<ClientSO> OnCaseContinued;
     
 
     private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
-        acceptButton.onClick.AddListener(HandleAcceptListener);    
-        cancelButton.onClick.AddListener(HandleCancelListener);    
+        continueButton.onClick.AddListener(HandleContinueListener);    
+        backButton.onClick.AddListener(HandleBackListener);    
 
         ClientInfoUI.OnClientSelected += HandleClientSelected;
         ClosePanel(true);
     }
 
-    private void ClosePanel(bool isInstant = false)
+    private void ClosePanel(bool isInstant = false, UnityAction completeAction = null)
     {
         if(!isInstant)
         {
-            PlayScaleAnimation(Vector3.zero, Ease.InBack, ()=> canvasGroup.alpha = 0);
+            PlayScaleAnimation(Vector3.zero, Ease.InBack, ()=> {
+                canvasGroup.alpha = 0;
+                completeAction?.Invoke();
+                });
         }
         else
         {
@@ -55,24 +58,27 @@ public class ClientDescPanel : MonoBehaviour
     {
         OpenPanel();
         clientImage.sprite = client.ClientSprite;
-        priceText.text = client.ClientCase.CasePrice.ToString();
+        priceText.text = $"$ {client.ClientCase.CasePrice}";
         clientNameText.text = client.ClientName;
 
         string caseName = client.ClientCase.GetCaseSubject;
         string desc = caseName + ":" + "\n" + client.ClientCase.GetCaseDescription;
-        desc = desc.Replace("\r", "");  //to fix the problem of words overlapping each other.
+        desc = Helpers.FixTMPOverlap(desc, false);  //to fix the problem of words overlapping each other.
         caseDescText.text = desc;
-    }
 
-    private void HandleCancelListener()
+        clientSO = client;
+    }
+    private ClientSO clientSO;
+
+    private void HandleBackListener()
     {
         ClosePanel();
     }
 
-    private void HandleAcceptListener()
+    private void HandleContinueListener()
     {
-        ClosePanel();
-        OnCaseAccepted?.Invoke(); //TODO clienti clientspanel listesinden silecek
+        OnCaseContinued?.Invoke(clientSO); 
+        ClosePanel(isInstant: true);
     }
 
     private void PlayScaleAnimation(Vector3 target, Ease easeType, UnityAction completeAction)

@@ -12,7 +12,13 @@ public class QuestionSO : ScriptableObject
 
     [SerializeField, Expandable] private AnswerSO trueAnswer;
 
+    public string GetQuestion => Question.GetLocalizedString();
+
+    public AnswerSO GetAnswer(int index) => answers[index];
+
     public List<AnswerSO> Answers => answers;
 
     public AnswerSO TrueAnswer => trueAnswer;
+
+    public bool IsTrueAnswer(AnswerSO answer) => trueAnswer == answer;
 }

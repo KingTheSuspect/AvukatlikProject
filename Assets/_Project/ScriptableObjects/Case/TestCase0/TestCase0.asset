@@ -50,9 +50,19 @@ MonoBehaviour:
     m_FallbackState: 0
     m_WaitForCompletion: 0
     m_LocalVariables: []
+  <JudgeStartText>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:49ca2836e16d4a64d812dff23512d9bf
+    m_TableEntryReference:
+      m_KeyId: 9027963747004416
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   <CaseType>k__BackingField: 0
   <Prestige>k__BackingField: 10
   <CaseIncome>k__BackingField: 100
+  <CasePrice>k__BackingField: 100
   questions:
   - {fileID: 11400000, guid: b1a7b8cef8aa0824ebf158c15e46dbea, type: 2}
   - {fileID: 11400000, guid: 050a4ff9709da3f49a026482b2b214e6, type: 2}

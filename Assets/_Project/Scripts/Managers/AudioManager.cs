@@ -33,27 +33,23 @@ public class AudioManager : MonoBehaviour
         sfxMixer.SetFloat("SFXVolume", Mathf.Log10(value) * 20);
     }
 
-    public void ToggleMusic()
-    {
-        MuteMusic = !MuteMusic;
-        SetMusicVolume(MuteMusic ? 0.0001f : 1);
-    }
-
-    public void ToggleSfx()
-    {
-        MuteSfx = !MuteSfx;
-        SetSfxVolume(MuteSfx ? 0.0001f : 1);
-    }
-
     public void ToggleSFX(bool enabled)
     {
-        MuteSfx = enabled;
+        MuteSfx = !enabled;
         SetSfxVolume(MuteSfx ? 1 : 0.0001f);
     }
 
     public void ToggleMusic(bool enabled)
     {
-        MuteMusic = enabled;
+        MuteMusic = !enabled;
         SetMusicVolume(MuteMusic ? 1 : 0.0001f);
+    }
+
+    public void ToggleSound(bool enabled)
+    {
+        MuteMusic = !enabled;
+        MuteSfx = !enabled;
+        SetMusicVolume(MuteMusic ? 0.0001f : 1);
+        SetSfxVolume(MuteSfx ? 0.0001f : 1);
     }
 }

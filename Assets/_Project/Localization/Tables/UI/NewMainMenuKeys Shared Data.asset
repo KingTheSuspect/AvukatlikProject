@@ -63,6 +63,30 @@ MonoBehaviour:
     m_Key: OffKey
     m_Metadata:
       m_Items: []
+  - m_Id: 1510621072814080
+    m_Key: JudgeKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1524859975725056
+    m_Key: CourtKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2215266325852160
+    m_Key: WinKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2215368733978624
+    m_Key: LoseKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2218296773406720
+    m_Key: ContinueKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3170640449204224
+    m_Key: BackKey
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
